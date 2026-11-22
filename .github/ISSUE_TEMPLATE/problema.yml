@@ -1,0 +1,44 @@
+name: Qualcosa non funziona
+description: Un errore, una schermata sbagliata, qualcosa che non fa quello che ti aspetti.
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: Grazie! Non scrivere password, codici ricevuti per email o altri dati personali.
+  - type: textarea
+    id: cosa
+    attributes:
+      label: Cosa è successo
+      description: Cosa ti aspettavi e cosa invece è successo.
+    validations:
+      required: true
+  - type: textarea
+    id: passi
+    attributes:
+      label: Come ci sei arrivato
+      description: I passi per rifarlo, uno per riga.
+      placeholder: |
+        1. Apro Zerva
+        2. Tocco…
+    validations:
+      required: true
+  - type: dropdown
+    id: dove
+    attributes:
+      label: Dove
+      options:
+        - App Android
+        - Sito su telefono
+        - Sito su tablet o computer
+    validations:
+      required: true
+  - type: input
+    id: versione
+    attributes:
+      label: Versione
+      description: La trovi in Home o in Account, per esempio «0.0.3 beta».
+  - type: textarea
+    id: altro
+    attributes:
+      label: Altro
+      description: Modello del telefono o browser, schermate (senza dati personali).

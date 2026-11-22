@@ -1,0 +1,16 @@
+name: Un'idea
+description: Una funzione che ti servirebbe o qualcosa da migliorare.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: L'idea
+      description: Cosa vorresti poter fare.
+    validations:
+      required: true
+  - type: textarea
+    id: perche
+    attributes:
+      label: Perché ti servirebbe
+      description: In quale momento del tuo allenamento o della tua giornata ti aiuterebbe.
