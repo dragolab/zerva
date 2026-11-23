@@ -1,10 +1,10 @@
-name: Qualcosa non funziona
-description: Un errore, una schermata sbagliata, qualcosa che non fa quello che ti aspetti.
+name: Qualcosa non funziona / Something is broken
+description: Un errore o qualcosa che non fa quello che ti aspetti. / A bug or something not doing what you expect.
 labels: ["problema"]
 body:
   - type: markdown
     attributes:
-      value: Grazie! Non scrivere password, codici ricevuti per email o altri dati personali.
+      value: "Grazie! Non scrivere password, codici ricevuti per email o altri dati personali. / Thanks! Do not include passwords, codes received by email or other personal data. You can write in English."
   - type: textarea
     id: cosa
     attributes:

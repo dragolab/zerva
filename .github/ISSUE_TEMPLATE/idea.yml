@@ -1,5 +1,5 @@
-name: Un'idea
-description: Una funzione che ti servirebbe o qualcosa da migliorare.
+name: Un'idea / An idea
+description: Una funzione che ti servirebbe o qualcosa da migliorare. / A feature you need or something to improve.
 labels: ["idea"]
 body:
   - type: textarea

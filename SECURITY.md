@@ -11,3 +11,19 @@ Scrivi:
 - cosa potrebbe ottenere chi lo sfrutta.
 
 Non accedere ai dati di altre persone oltre quanto serve per dimostrare il problema e non modificarli. Ti rispondiamo appena possibile e ti teniamo aggiornato fino alla correzione.
+
+---
+
+# Security (English)
+
+If you find a security problem in Zerva, for example a way to see other people's data or to get into an account that is not yours, **do not open a public issue**.
+
+Use GitHub's private reporting instead: the **Security** tab of this repository → **Report a vulnerability**. Only Drago Labs can see the report.
+
+Please include:
+
+- what you found and where (Android app, website, version);
+- the steps to reproduce it;
+- what someone exploiting it could achieve.
+
+Do not access other people's data beyond what is needed to show the problem, and do not change it. We will reply as soon as possible and keep you updated until it is fixed.
